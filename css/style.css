@@ -199,6 +199,63 @@ header {
   white-space: nowrap;
 }
 
+/* Newsletter */
+
+.newsletter {
+  padding: 4.8rem 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.newsletter h2 {
+  margin: 0 0 0.8rem;
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+
+.newsletter form {
+  max-width: 40rem;
+  margin-top: 2.4rem;
+}
+
+.field {
+  margin-bottom: 1.6rem;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  padding: 0.8rem 1.2rem;
+  font-family: inherit;
+  font-size: 1.4rem;
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0.4rem;
+}
+
+.newsletter button {
+  padding: 0.8rem 2rem;
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  background: var(--color-accent);
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background: #921f19;
+}
+
 /* Footer */
 
 footer {
