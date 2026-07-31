@@ -383,6 +383,34 @@
             </li>
           </ol>
         </section>
+
+        <section id="newsletter" class="newsletter">
+          <h2>Join the mailing list.</h2>
+          <p class="blurb">
+            New releases, tour dates and the occasional discount. No spam.
+          </p>
+          <form action="https://example.com/subscribe" method="get">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="field">
+              <label for="genre">Favorite genre</label>
+              <select id="genre" name="genre">
+                <option value="childrens-music">Children's music</option>
+                <option value="italian-pop">Italian pop</option>
+                <option value="afrobeats">Afrobeats</option>
+                <option value="hip-hop">Hip-hop</option>
+                <option value="country">Country</option>
+              </select>
+            </div>
+            <button type="submit">Sign up</button>
+          </form>
+        </section>
       </div>
     </main>
 
